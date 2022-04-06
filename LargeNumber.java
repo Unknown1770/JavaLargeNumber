@@ -15,11 +15,11 @@ public class LargeNumber {
 	    int b=sc.nextInt();
 	    System.out.println("Enter Number 3: ");
 	    int c=sc.nextInt();
-	    if(a>b && a>c)
+	    if(a>=b && a>=c)
 	    {
 	    	System.out.println("Maximum number is "+a);
 	    }
-	    else if(b>c)
+	    else if(b>=a && b>=c)
 	    {
 	    	System.out.println("Maximum number is "+b);
 	    }
