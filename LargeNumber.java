@@ -17,15 +17,15 @@ public class LargeNumber {
 	    int c=sc.nextInt();
 	    if(a>=b && a>=c)
 	    {
-	    	System.out.println("Maximum number is "+a);
+	    	System.out.println(a);
 	    }
 	    else if(b>=a && b>=c)
 	    {
-	    	System.out.println("Maximum number is "+b);
+	    	System.out.println(b);
 	    }
 	    else
 	    {
-	    	System.out.println("Maximum number is "+c);
+	    	System.out.println(c);
 	    }
 
 	}
